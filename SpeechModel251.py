@@ -420,7 +420,7 @@ if(__name__=='__main__'):
 	
 	
 	#ms.LoadModel(modelpath + 'm251/speech_model251_e_0_step_100000.model')
-	ms.TrainModel(datapath, epoch = 50, batch_size = 16, save_step = 500)
+	ms.TrainModel(datapath, epoch = 50, batch_size = 16, save_step = 200)
 	
 	#t1=time.time()
 	#ms.TestModel(datapath, str_dataset='train', data_count = 128, out_report = True)
