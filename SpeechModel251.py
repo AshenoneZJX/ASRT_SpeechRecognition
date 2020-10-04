@@ -419,7 +419,7 @@ if(__name__=='__main__'):
 	ms = ModelSpeech(datapath)
 	
 	
-	#ms.LoadModel(modelpath + 'm251/speech_model251_e_0_step_100000.model')
+	ms.LoadModel(modelpath + 'm251/speech_model251_e_0_step_4200.model')
 	ms.TrainModel(datapath, epoch = 50, batch_size = 16, save_step = 200)
 	
 	#t1=time.time()
